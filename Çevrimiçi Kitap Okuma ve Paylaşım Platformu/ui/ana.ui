@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>779</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kitap</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="aciklamaLabel">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>481</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>Her şey çürüyor, her şey... İnsanlar çürümeyecekler mi? Eylülde, sanki bahara hasret çeken hüzünlü bir tazelik, sanki üzerine çöken kışın kendisini yok etmek isteyen sonbahara rağmen devam etmek, yine bahar olmak mücadelesi vardır; fakat bunun için muhtaç olduğu şeylerden mahrumdur ve kendisinde de dayanma gücü kalmamıştır. Tabiat da bunu anlamış gibi acı bir düşünceyle üstüne çöken ıssızlığın, matemin altında ezilerek durur. Ne kadar uğraşırsa uğraşsın, ne kadar dayanabilirse dayansın kışın galip geleceğini, artık her şeyin, her ümidin bittiğini, buna dayanmak gerektiğini anlamaktan doğan bir güçsüzlük ile ağlar...</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="foto">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>200</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>351</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="kitaplabel">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>20</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Sefiller</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="yazarlabel">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Victor Hugo</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="yayinEviLabel">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Yayın Evi: Merkez Yayınları</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="okuButon">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>380</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Oku</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="oncekiButon">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>380</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../kütüphane/ui/sol.png</normaloff>../../kütüphane/ui/sol.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sonrakiButon">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>380</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../kütüphane/ui/sağ.png</normaloff>../../kütüphane/ui/sağ.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="yorumButon">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>380</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yorumlar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="listeEkleButon">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>380</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Listeden Ekle</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>779</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="kitapEkleMenu">
+    <property name="title">
+     <string>Kitap</string>
+    </property>
+    <addaction name="kitapListeMenu"/>
+    <addaction name="kitapEkleActio"/>
+    <addaction name="kitapIcerik"/>
+   </widget>
+   <addaction name="kitapEkleMenu"/>
+  </widget>
+  <action name="oduncListe">
+   <property name="text">
+    <string>Ödünç Alma Listesi</string>
+   </property>
+  </action>
+  <action name="iade">
+   <property name="text">
+    <string>Kitap İade</string>
+   </property>
+  </action>
+  <action name="kitapEkle">
+   <property name="text">
+    <string>Kitap Ekle</string>
+   </property>
+  </action>
+  <action name="actionKitap_EKle">
+   <property name="text">
+    <string>Kitap Ekle</string>
+   </property>
+  </action>
+  <action name="actionKitap_Listem">
+   <property name="text">
+    <string>Kitap Listem</string>
+   </property>
+  </action>
+  <action name="kitapekle">
+   <property name="text">
+    <string>Kitap Ekle</string>
+   </property>
+  </action>
+  <action name="kitapListeMenu">
+   <property name="text">
+    <string>Kitap Listem</string>
+   </property>
+  </action>
+  <action name="kitapEkleActio">
+   <property name="text">
+    <string>Kitap Oluştur</string>
+   </property>
+  </action>
+  <action name="kitapIcerik">
+   <property name="text">
+    <string>İçerik Ekle</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
